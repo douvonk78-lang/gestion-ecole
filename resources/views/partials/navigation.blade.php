@@ -3,7 +3,7 @@
 
         {{-- Logo / Nom du site --}}
         <a href="{{ route('accueil') }}" class="text-lg font-semibold text-gray-900">
-            Collège Protestant
+            Collège Protestant Kpalimé
         </a>
 
         {{-- Liens de navigation --}}

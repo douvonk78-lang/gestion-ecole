@@ -8,7 +8,7 @@
 
         <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 backdrop-blur-sm rounded-full px-4 py-1.5 text-xs font-medium text-gray-300 mb-8">
             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-            Campus de Lomé &amp; Kpalimé
+            Kpalimé, Togo
         </div>
 
         <h1 class="text-4xl md:text-6xl font-semibold tracking-tight mb-6 max-w-3xl mx-auto">
@@ -17,7 +17,7 @@
         </h1>
 
         <p class="text-lg text-gray-400 max-w-xl mx-auto mb-10 leading-relaxed">
-            Un enseignement de qualité, un encadrement bienveillant, deux campus au service de la réussite de chaque élève.
+            Un enseignement de qualité, un encadrement bienveillant, au service de la réussite de chaque élève à Kpalimé.
         </p>
 
         <div class="flex flex-wrap items-center justify-center gap-4">

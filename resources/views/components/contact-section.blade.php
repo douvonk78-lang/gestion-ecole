@@ -2,38 +2,11 @@
     <div class="max-w-6xl mx-auto px-6 py-24">
 
         <div class="text-center max-w-2xl mx-auto mb-16">
-            <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">Nos campus</h2>
-            <p class="text-gray-500">Retrouvez-nous sur l'un de nos deux sites, à Lomé ou à Kpalimé.</p>
+            <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">Notre campus</h2>
+            <p class="text-gray-500">Retrouvez-nous à Kpalimé.</p>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-6 mb-24">
-
-            <div class="group border border-gray-200 hover:border-gray-300 rounded-2xl p-8 transition-colors duration-200">
-                <div class="flex items-center justify-between mb-6">
-                    <h3 class="text-lg font-semibold text-gray-900">Campus de Lomé</h3>
-                    <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 group-hover:bg-gray-100 transition-colors duration-200">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4.5 h-4.5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                        </svg>
-                    </span>
-                </div>
-                <ul class="space-y-3 text-sm text-gray-500">
-                    <li class="flex gap-3">
-                        <span class="text-gray-400 w-20 shrink-0">Adresse</span>
-                        <span class="text-gray-700">Quartier Bè, non loin du grand marché, Lomé</span>
-                    </li>
-                    <li class="flex gap-3">
-                        <span class="text-gray-400 w-20 shrink-0">Téléphone</span>
-                        <span class="text-gray-700">+228 90 00 00 00</span>
-                    </li>
-                    <li class="flex gap-3">
-                        <span class="text-gray-400 w-20 shrink-0">E-mail</span>
-                        <span class="text-gray-700">lome@collegeprotestant.tg</span>
-                    </li>
-                </ul>
-            </div>
-
+        <div class="max-w-md mx-auto mb-24">
             <div class="group border border-gray-200 hover:border-gray-300 rounded-2xl p-8 transition-colors duration-200">
                 <div class="flex items-center justify-between mb-6">
                     <h3 class="text-lg font-semibold text-gray-900">Campus de Kpalimé</h3>
@@ -59,7 +32,6 @@
                     </li>
                 </ul>
             </div>
-
         </div>
 
         <div class="max-w-3xl mx-auto">

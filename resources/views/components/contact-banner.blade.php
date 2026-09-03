@@ -26,8 +26,8 @@
         </h1>
 
         <p class="text-lg text-gray-400 max-w-xl mb-12 leading-relaxed">
-            Une question, un projet, une demande d'information ? Notre équipe vous répond rapidement, sur nos deux campus.
-        </p>
+    Une question, un projet, une demande d'information ? Notre équipe vous répond rapidement.
+</p>
 
         <div class="flex flex-wrap gap-4">
             <a href="tel:0022898441631" class="group flex items-center gap-3 bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-white/20 backdrop-blur-sm rounded-2xl px-5 py-3 text-sm transition-all duration-200">

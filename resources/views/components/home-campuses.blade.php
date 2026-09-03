@@ -45,4 +45,15 @@
                         Situé à Kpégolonou, non loin du Palais de Justice, notre campus offre un cadre calme et verdoyant, propice aux études.
                     </p>
                     <a href="{{ route('contact') }}" class="inline-flex items-center gap-1.5 text-sm font-medium text-gray-900 group-hover:gap-2.5 transition-all duration-200">
-                        En
+                        En savoir plus
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>

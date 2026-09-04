@@ -1,0 +1,47 @@
+COLLEGE PROTESTANT KPALIME - CODE DU SITE
+==========================================
+
+CONTENU DE CE ZIP
+------------------
+resources/views/layouts/app.blade.php       -> le moule commun a toutes les pages
+resources/views/partials/navigation.blade.php
+resources/views/partials/footer.blade.php
+resources/views/accueil.blade.php           -> page d'accueil
+resources/views/contact.blade.php           -> page contact
+resources/views/components/*.blade.php      -> tous les blocs (hero, about, stats, formations, campus, temoignages, galerie, cta, banniere contact, section contact)
+routes/web.php                              -> les 2 routes (accueil, contact)
+
+COMMENT L'INSTALLER DANS TON PROJET
+------------------------------------
+1. Copie chaque dossier "resources" et "routes" de ce zip
+   directement dans le dossier de ton projet Laravel (gestion-ecole),
+   en ecrasant les fichiers existants si demande.
+
+2. Verifie que ton fichier routes/web.php ressemble bien au contenu
+   fourni ici (2 routes nommees "accueil" et "contact").
+
+3. Lance ensuite, comme d'habitude :
+   npm run dev        (en local, pour le style)
+   php artisan serve  (pour voir le site sur http://127.0.0.1:8000)
+
+4. Pour remettre en ligne sur Vercel :
+   npm run build
+   git add .
+   git commit -m "Mise a jour du site"
+   git push origin main
+   vercel --prod
+
+A PROPOS DES IMAGES
+--------------------
+Les images utilisees viennent de https://picsum.photos (photos libres
+de droit, generees automatiquement par un identifiant dans l'URL).
+Ce sont des images de demonstration en attendant les vraies photos
+du Collège Protestant. Pour les remplacer plus tard : mets tes photos
+dans public/images/ et change les balises <img src="..."> par
+{{ asset('images/ta-photo.jpg') }}.
+
+CE QUI N'EST PAS INCLUS
+------------------------
+- Pas de migrations ni de base de donnees (sur demande).
+- Le formulaire de contact n'envoie encore rien reellement
+  (pas de connexion backend), c'est uniquement visuel pour l'instant.

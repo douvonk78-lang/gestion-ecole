@@ -7,7 +7,7 @@
                 Galerie
                 <span class="w-6 h-px bg-gray-400"></span>
             </div>
-            <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">La vie sur nos campus</h2>
+            <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">La vie sur notre campus</h2>
             <p class="text-gray-500">Quelques moments partagés entre élèves, enseignants et personnel.</p>
         </div>
 

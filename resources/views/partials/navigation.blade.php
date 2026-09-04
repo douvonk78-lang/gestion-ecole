@@ -1,12 +1,10 @@
 <nav class="border-b border-gray-200">
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
 
-        {{-- Logo / Nom du site --}}
         <a href="{{ route('accueil') }}" class="text-lg font-semibold text-gray-900">
             Collège Protestant Kpalimé
         </a>
 
-        {{-- Liens de navigation --}}
         <div class="flex gap-6 text-sm text-gray-700">
             <a href="{{ route('accueil') }}" class="hover:text-gray-900">
                 Accueil

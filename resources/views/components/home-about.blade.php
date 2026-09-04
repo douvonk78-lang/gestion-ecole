@@ -14,8 +14,9 @@
                 </h2>
 
                 <p class="text-gray-500 leading-relaxed mb-4">
-    Depuis sa création, le Collège Protestant accompagne ses élèves à Kpalimé avec exigence et bienveillance. Notre mission est de former des citoyens responsables, curieux et prêts à affronter les défis de demain.
-</p>
+                    Depuis sa création, le Collège Protestant accompagne ses élèves à Kpalimé avec exigence et bienveillance. Notre mission est de former des citoyens responsables, curieux et prêts à affronter les défis de demain.
+                </p>
+
                 <p class="text-gray-500 leading-relaxed mb-8">
                     Nous misons sur un encadrement de proximité, des infrastructures adaptées et une pédagogie qui place chaque élève au centre de son parcours scolaire.
                 </p>
@@ -35,7 +36,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
                         </span>
-                        <span class="text-gray-700 text-sm">Des infrastructures modernes sur nos deux campus</span>
+                        <span class="text-gray-700 text-sm">Des infrastructures modernes et adaptées</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <span class="flex items-center justify-center w-6 h-6 rounded-full bg-emerald-50 shrink-0">

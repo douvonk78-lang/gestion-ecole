@@ -8,7 +8,9 @@
     <div class="relative max-w-6xl mx-auto px-6 py-28 md:py-36">
 
         <nav class="flex items-center gap-2 text-sm text-gray-400 mb-8">
-            <a href="{{ route('accueil') }}" class="hover:text-white transition-colors duration-200">Accueil</a>
+            <a href="{{ route('accueil') }}" class="hover:text-white transition-colors duration-200">
+                Accueil
+            </a>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-3.5 h-3.5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
             </svg>
@@ -26,8 +28,8 @@
         </h1>
 
         <p class="text-lg text-gray-400 max-w-xl mb-12 leading-relaxed">
-    Une question, un projet, une demande d'information ? Notre équipe vous répond rapidement.
-</p>
+            Une question, un projet, une demande d'information ? Notre équipe vous répond rapidement.
+        </p>
 
         <div class="flex flex-wrap gap-4">
             <a href="tel:0022898441631" class="group flex items-center gap-3 bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-white/20 backdrop-blur-sm rounded-2xl px-5 py-3 text-sm transition-all duration-200">
@@ -56,4 +58,5 @@
         </div>
 
     </div>
+
 </div>

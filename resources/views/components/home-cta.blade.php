@@ -8,7 +8,7 @@
             Prêt à rejoindre le Collège Protestant ?
         </h2>
         <p class="text-gray-400 max-w-xl mx-auto mb-10">
-            Contactez-nous dès aujourd'hui pour toute question sur nos formations, nos campus ou une inscription.
+            Contactez-nous dès aujourd'hui pour toute question sur nos formations, notre campus ou une inscription.
         </p>
 
         <div class="flex flex-wrap items-center justify-center gap-4">

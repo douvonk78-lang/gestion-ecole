@@ -50,7 +50,7 @@
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                 </svg>
                 <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                    "Le campus de Kpalimé est calme et bien entretenu, idéal pour se concentrer sur les études."
+                    "Le campus est calme et bien entretenu, idéal pour se concentrer sur les études."
                 </p>
                 <div class="flex items-center gap-3">
                     <span class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 text-gray-500 text-sm font-medium">EN</span>

@@ -7,6 +7,8 @@ Route::get('/', function () {
     return view('accueil');
 });
 
+Route::get('/contact', function () { return view('contact'); })->name('contact');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

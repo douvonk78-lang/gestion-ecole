@@ -18,7 +18,7 @@ return [
     |
     */
 
-    'default' => env('LOG_CHANNEL', 'stack'),
+    'default' => env('LOG_CHANNEL', 'stderr'),
 
     /*
     |--------------------------------------------------------------------------
@@ -122,10 +122,9 @@ return [
             'driver' => 'monolog',
             'handler' => NullHandler::class,
         ],
-
-        'emergency' => [
-            'path' => storage_path('logs/laravel.log'),
-        ],
+'emergency' => [
+    'path' => 'php://stderr',
+],
 
     ],
 

@@ -1,21 +1,31 @@
 COLLEGE PROTESTANT KPALIME - CODE DU SITE
 ==========================================
 
-CONTENU DE CE ZIP
-------------------
+CONTENU DE CE ZIP (VERSION COMPLETE)
+--------------------------------------
 resources/views/layouts/app.blade.php       -> le moule commun a toutes les pages
-resources/views/partials/navigation.blade.php
-resources/views/partials/footer.blade.php
+resources/views/partials/navigation.blade.php  -> navbar responsive (menu mobile)
+resources/views/partials/footer.blade.php      -> footer complet (3 colonnes)
 resources/views/accueil.blade.php           -> page d'accueil
 resources/views/contact.blade.php           -> page contact
 resources/views/components/*.blade.php      -> tous les blocs (hero, about, stats, formations, campus, temoignages, galerie, cta, banniere contact, section contact)
 routes/web.php                              -> les 2 routes (accueil, contact)
+resources/css/app.css                       -> configuration Tailwind CSS v4
+vite.config.js                              -> configuration Vite + Tailwind
 
 COMMENT L'INSTALLER DANS TON PROJET
 ------------------------------------
-1. Copie chaque dossier "resources" et "routes" de ce zip
+1. Supprime d'abord les anciens dossiers "resources/views/partials" et
+   "resources/views/components" de ton projet (pour ne garder aucun
+   fichier corrompu ou obsolete).
+
+2. Copie tout le contenu de ce zip (resources/, routes/, vite.config.js)
    directement dans le dossier de ton projet Laravel (gestion-ecole),
    en ecrasant les fichiers existants si demande.
+
+3. Vide les caches :
+   php artisan view:clear
+   php artisan config:clear
 
 2. Verifie que ton fichier routes/web.php ressemble bien au contenu
    fourni ici (2 routes nommees "accueil" et "contact").

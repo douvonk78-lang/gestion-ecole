@@ -30,6 +30,7 @@
             <!-- Page Content -->
             <main>
                 @yield('contenu')
+            @include('partials.footer')
             </main>
         </div>
     </body>
